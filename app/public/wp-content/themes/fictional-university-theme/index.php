@@ -1,1 +1,1 @@
-This is our totally custom theme
+This is my totally custom theme

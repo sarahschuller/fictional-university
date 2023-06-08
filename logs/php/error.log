@@ -1,3 +1,36 @@
 [04-Jun-2023 16:36:55 UTC] PHP Parse error:  Unmatched ')' in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 4
 [04-Jun-2023 16:37:17 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "></div>", expecting "," or ";" in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 5
 [06-Jun-2023 00:25:53 UTC] PHP Parse error:  syntax error, unexpected token ">" in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 37
+[08-Jun-2023 23:19:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\header.php:5
+Stack trace:
+#0 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\template.php(718): load_template('C:\\Users\\sarah\\...', true, Array)
+#2 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php(1): get_header()
+#4 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\sarah\\...')
+#5 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\sarah\\...')
+#6 C:\Users\sarah\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\sarah\\...')
+#7 {main}
+  thrown in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\header.php on line 5
+[08-Jun-2023 23:19:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\header.php:5
+Stack trace:
+#0 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\template.php(718): load_template('C:\\Users\\sarah\\...', true, Array)
+#2 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php(1): get_header()
+#4 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\sarah\\...')
+#5 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\sarah\\...')
+#6 C:\Users\sarah\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\sarah\\...')
+#7 {main}
+  thrown in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\header.php on line 5
+[08-Jun-2023 23:19:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\header.php:5
+Stack trace:
+#0 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\template.php(718): load_template('C:\\Users\\sarah\\...', true, Array)
+#2 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php(1): get_header()
+#4 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\sarah\\...')
+#5 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\sarah\\...')
+#6 C:\Users\sarah\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\sarah\\...')
+#7 {main}
+  thrown in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\header.php on line 5

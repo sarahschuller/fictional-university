@@ -34,3 +34,4 @@ Stack trace:
 #6 C:\Users\sarah\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\sarah\\...')
 #7 {main}
   thrown in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\header.php on line 5
+[09-Jun-2023 23:57:58 UTC] PHP Parse error:  syntax error, unexpected identifier "footer" in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 4

@@ -14,6 +14,7 @@ get_header();
       </div>
     </div>
 
+    <!-- Main Blog section to contain posts -->
     <div class="container container--narrow page-section">
       <?php
 

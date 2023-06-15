@@ -3,6 +3,7 @@ function university_post_types()
 {
     register_post_type('event', array(
         'public' => true,
+        'show_in_rest' => true,
         'menu_icon' => 'dashicons-calendar-alt',
         'labels' => array(
             'name' => 'Events',

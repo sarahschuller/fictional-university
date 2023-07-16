@@ -47,3 +47,45 @@ Stack trace:
 #5 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\sarah\\...')
 #6 {main}
   thrown in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 308
+[16-Jul-2023 19:14:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function set() in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:25
+Stack trace:
+#0 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(308): university_adjust_queries(Object(WP_Query))
+#1 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#3 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp-query.php(1870): do_action_ref_array('pre_get_posts', Array)
+#4 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp-query.php(3787): WP_Query->get_posts()
+#5 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp.php(663): WP_Query->query(Array)
+#6 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp.php(783): WP->query_posts()
+#7 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\functions.php(1334): WP->main('')
+#8 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-blog-header.php(16): wp()
+#9 C:\Users\sarah\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\sarah\\...')
+#10 {main}
+  thrown in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 25
+[16-Jul-2023 19:15:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function set() in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:25
+Stack trace:
+#0 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(308): university_adjust_queries(Object(WP_Query))
+#1 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#3 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp-query.php(1870): do_action_ref_array('pre_get_posts', Array)
+#4 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp-query.php(3787): WP_Query->get_posts()
+#5 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp.php(663): WP_Query->query(Array)
+#6 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp.php(783): WP->query_posts()
+#7 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\functions.php(1334): WP->main('')
+#8 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-blog-header.php(16): wp()
+#9 C:\Users\sarah\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\sarah\\...')
+#10 {main}
+  thrown in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 25
+[16-Jul-2023 19:15:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function set() in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:25
+Stack trace:
+#0 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(308): university_adjust_queries(Object(WP_Query))
+#1 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#3 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp-query.php(1870): do_action_ref_array('pre_get_posts', Array)
+#4 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp-query.php(3787): WP_Query->get_posts()
+#5 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp.php(663): WP_Query->query(Array)
+#6 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\class-wp.php(783): WP->query_posts()
+#7 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-includes\functions.php(1334): WP->main('')
+#8 C:\Users\sarah\Local Sites\fictional-university\app\public\wp-blog-header.php(16): wp()
+#9 C:\Users\sarah\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\sarah\\...')
+#10 {main}
+  thrown in C:\Users\sarah\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 25
